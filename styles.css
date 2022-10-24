@@ -1,0 +1,105 @@
+@import url("variables and fonts.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--gunmetal);
+    color: var(--magnolia);
+    text-align: center;
+}
+
+h1 {
+    font-size: 7rem;
+    margin-top: 30vh;
+    margin-bottom: 10px;
+    font-family: "Anton", sans-serif;
+    font-weight: normal;
+}
+
+p {
+    font-size: 7rem;
+    margin-bottom: 10px;
+    font-family: "Taviraj", sans-serif;
+}
+
+button {
+    background-color: var(--mustard);
+    border: 1px solid var(--magnolia);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: "Kanit Light", sans-serif;
+    margin-right: 5px;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--button-hover);
+}
+
+@media (max-width: 1440px) {
+    h1 {
+        margin-top: 15vh;
+        font-size: 5rem;
+    }
+
+    p {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    button {
+        font-size: 2rem;
+    }
+}
+
+@media (max-height: 768px) and (orientation: portrait) {
+    h1 {
+        margin-top: 170px;
+    }
+}
+
+@media (max-width: 425px) {
+    h1 {
+        margin-top: 30vh;
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-height: 425px) and (orientation: landscape) {
+    h1 {
+        margin-top: 20vh;
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-height: 320px) {
+    h1 {
+        margin-top: 13vh;
+    }
+}

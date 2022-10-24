@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Anton";
+    src: url("fonts/Anton/anton.ttf");
+}
+
+@font-face {
+    font-family: "Kanit Light";
+    src: url("fonts/Kanit/Kanit-Light.ttf");
+}
+
+@font-face {
+    font-family: "Taviraj";
+    src: url("fonts/Taviraj/Taviraj-Bold.ttf");
+}
+
+:root {
+    --gunmetal: rgb(32, 44, 57);
+    --mustard: rgb(255, 225, 86);
+    --magnolia: rgb(239, 233, 244);
+    --button-hover: rgb(192, 165, 43);
+}
